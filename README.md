@@ -83,7 +83,7 @@ To observe DNS traffic, I used the filter udp.port == 53 and the command nslooku
 <br />
 
 <p>
-<img src="https://i.imgur.com/N7voXYU.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://i.imgur.com/wrWreSo.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 To finish my lab, I decided to observe RDP traffic. The filter for Wireshark is tcp.port == 3389. There is non-stop traffic because RDP is constantly showing me a live stream from one computer to another (in my case, my computer accessing the VM that is hosted on Azure) and thus traffic is always transmitted. 
