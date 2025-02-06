@@ -27,7 +27,7 @@ Within Azure, I created two VMs within the same virtual network to ensure that t
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DutP0XT.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://i.imgur.com/0vv6DIF.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 Using Remote Desktop Connection, I connect to the Windows VM using its public IP address. From there, I installed Wireshark in order to begin inspecting traffic. 
