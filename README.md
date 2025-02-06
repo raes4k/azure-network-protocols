@@ -35,7 +35,7 @@ Using Remote Desktop Connection, I connect to the Windows VM using its public IP
 <br />
 
 <p>
-<img src="https://i.imgur.com/2JQawfN.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://i.imgur.com/s7GvPu2.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 Within Wireshark, I filtered for ICMP (Internet Control Message Protocol) traffic and opened PowerShell to execute a command called ping. Ping utilizes ICMP, which is used by devices in a network to communicate problems within data transmition. I used ping to see if I can communicate with the Ubuntu VM using its private IP address and with google.com. Afterwards, I used a perpetual ping to the Ubuntu VM in order to see how network security groups work. I executed the perpetual ping with the command: ping -t (ip address).
