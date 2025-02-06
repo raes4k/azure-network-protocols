@@ -67,7 +67,7 @@ Next, I chose to examine SSH traffic. I logged in to the Ubuntu server via Power
 <br />
 
 <p>
-<img src="https://i.imgur.com/mptFClI.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://i.imgur.com/1Ehytw4.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 After examining SSH traffic, I exited the Ubuntu server in order to filter for DHCP traffic. To see it in action, I decided to attempt to issue a new IP address from my VM. The command ipconfig /renew will attempt to issue the new IP address and will temporarily disconnect me for a few seconds. After reconnecting, the resulting traffic is shown in Wireshark.
