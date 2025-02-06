@@ -59,7 +59,7 @@ Upon returning to the Windows VM, I notice that the ICMP traffic is blocked now 
 <br />
 
 <p>
-<img src="https://i.imgur.com/fDtuLo9.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://i.imgur.com/H9ItDLW.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 Next, I chose to examine SSH traffic. I logged in to the Ubuntu server via PowerShell with the ssh command. With Wireshark, I filtered the traffic with tcp.port == 22. While logged into the Ubuntu server, my session is logged in Wireshark with each command I use.
