@@ -75,7 +75,7 @@ After examining SSH traffic, I exited the Ubuntu server in order to filter for D
 <br />
 
 <p>
-<img src="https://i.imgur.com/gtiupfH.png" height="80%" width="80%" alt="Azure Networking Steps"/>
+<img src="https://i.imgur.com/ZfJlwDE.png" height="80%" width="80%" alt="Azure Networking Steps"/>
 </p>
 <p>
 To observe DNS traffic, I used the filter udp.port == 53 and the command nslookup. I wanted to see the results that are from looking up google.com and disney.com, two very popular sites. 
